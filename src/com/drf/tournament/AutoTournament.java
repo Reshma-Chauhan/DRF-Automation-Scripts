@@ -119,8 +119,8 @@ public class AutoTournament {
 						Thread.sleep(500);
 						System.out.print("value of i :" +i );
 						System.out.println("value of j is : "+ j );
-					//	WebElement button =driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/table/tbody/tr[5]/td[7]/div"));
-						WebElement button =driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/table/tbody/tr["+i+"]/td["+j+"]/div"));
+						WebElement button =driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/table/tbody/tr[5]/td[7]/div"));
+					//	WebElement button =driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/table/tbody/tr["+i+"]/td["+j+"]/div"));
 						button.click();
 						Thread.sleep(500);
 						break;
